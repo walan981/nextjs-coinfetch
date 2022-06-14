@@ -27,7 +27,7 @@ function decimals(coin){
         )
     }else{
         const decIndex = -1*Math.floor(Math.log10(coin.price));
-        console.log(coin.name, coin.price, ',', decIndex);
+        //console.log(coin.name, coin.price, ',', decIndex);
         return(
             <div>
                 <p className={styles.dollar}>USD</p>
@@ -41,7 +41,7 @@ function decimals(coin){
 
 //destructuring the database info
 const CoinList = ({coinData}) =>{
-    console.log(coinData)
+    //console.log(coinData)
     return(
         <div className={styles.outterContainer}>
             
