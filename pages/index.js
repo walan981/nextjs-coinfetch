@@ -7,7 +7,7 @@ export default function Home() {
   return (
   <div className={styles.container}>
     <Head>
-      <title>Next Tutorial</title>
+      <title>Coinfetch</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
