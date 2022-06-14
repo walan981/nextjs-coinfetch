@@ -1,0 +1,103 @@
+.outterContainer > *{
+    text-align: center;
+    vertical-align: middle; 
+    background-color: rgb(236, 238, 240);
+    padding-top: 50px;
+}
+
+
+.coinBox{
+    width: 90%;
+    margin: 10px;
+    border: 1.3px solid rgb(40, 40, 40);
+    border-radius: 10px;
+    position: relative;
+    /* display: inline-block; */
+    
+}
+
+.coinBox:hover{
+    transition: 0.4s;
+    background-color: rgb(227, 227, 227);
+    /* border: 1.6px solid rgb(7, 57, 120); */
+}
+
+.coinHeader{
+    display: flex;
+    /* background-color: blue; */
+    max-width: 70%;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 0 !important;
+}
+
+.coinHeader h1{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.coinInfo{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.coinInfo p{
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.coinInfo .dollar{
+   
+    font-weight: normal;
+    color: rgb(143, 147, 147);
+}
+
+
+
+.priceChangePos{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: 15px;
+    background-color: rgb(56, 243, 146);
+    color: green;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.priceChangeNeg{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    background-color: rgb(242, 170, 170);
+    color: red;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 768px) {
+   
+    .coinBox{
+        width: 30%;
+       display: inline-block;
+       min-height: 50px;
+       
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+   
+    .coinBox{
+        width: 45%;
+       display: inline-block;
+       min-height: 50px;
+    }
+}
+
