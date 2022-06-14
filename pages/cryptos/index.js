@@ -80,7 +80,7 @@ export const getStaticProps = async() =>{
         props:{
             coinData: data.data,
         },
-        //revalidate: 100, //incremental revalidate data on seconds 
+        revalidate: 50, //incremental revalidate data on seconds 
     };
 }
 export default CoinList;
